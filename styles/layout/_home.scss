@@ -1,0 +1,39 @@
+.inicio {
+    margin: 0 auto;
+    margin-top: 12rem;
+    width: 90%;
+    border-radius: 1rem;
+    background: linear-gradient($bg-black, $bg-black),  url(/img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+
+    .contenido {
+        text-align: center;
+
+        span {
+            font-weight: bolder;
+            color: transparent;
+            -webkit-text-stroke: .1rem $white;
+            font-size: 4vh;
+            display: block;
+        }
+
+        h3{
+            font-size: 6vh;
+            color: white;
+        }
+        p {
+            max-width: 60rem;
+            margin: 1rem auto;
+            font-size: 1.4rem;
+            color: $light-color;
+            line-height: 2;
+        }
+    }
+}
